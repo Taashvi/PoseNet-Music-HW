@@ -1,0 +1,74 @@
+#heading{
+    background-color:black;
+    color:white;
+    margin-top:0;
+    padding:10px;
+}
+
+#play_song,#stop{
+    background-color:rgb(189, 189, 189);
+    color:black;
+    font-size:18px;
+    width:120px;
+    margin-top:20px;
+    padding:7px;
+    border:none;
+    border-radius:5px;
+    margin-left:
+}
+
+#play_song{
+    margin-left:320px;
+}
+
+#footer{
+    position:fixed;
+    bottom:0px;
+    background-color:rgb(204, 204, 204);
+    color:rgb(20, 0, 43);
+    padding:10px;
+    margin-bottom:0px;
+    width:100%;
+}
+
+body{
+    background-image:URL("Capture.JPG");
+    background-size:cover;
+    font-family: 'Abel', sans-serif;
+}
+
+#song_text{
+    color:white;
+    background-color:black;
+    padding:8px;
+    border-radius:5px;
+    width:100px;
+}
+
+h5{
+    color:black;
+}
+
+#note{
+    color:white;
+}
+
+canvas{
+    background-color:white;
+    border:3px solid white;
+    border-radius:10px;
+    margin-top:35px;
+    margin-left:500px;
+}
+
+#song{
+    float:right;
+    margin-right:200px;
+    width:100px;
+    margin-top:150px;
+    height:100px;
+}
+
+.bla{
+    color:white;
+}

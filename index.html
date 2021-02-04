@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Music- PoseNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script> 
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <center>
+        <div id="heading">
+            <h2>DJ App</h2>
+            <h5 id="note">Move your right hand up and down to change the song!</h5>
+        </div>
+        <button id="play_song" onclick="play_song()">Play Song</button>
+        <button id="stop" onclick="stop()">Stop Song</button>
+        <div id="song">
+            <h5 class="bla">It's The Climb</h5>
+            <i class="fa fa-arrow-up" style="font-size:20px;color:white;"></i>
+            <h4 id="song_text">Song</h4>
+            <i class="fa fa-arrow-down" style="font-size:20px;color:white;"></i>
+            <h5 class="bla">Live Your Story</h5>
+        </div>
+        <h5 id="footer">Developed By Taashvi Aggarwal</h1>
+    </center>
+    <script src="main.js"></script>
+    </body>
+</html>
